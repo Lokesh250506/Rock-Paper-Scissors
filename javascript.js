@@ -68,7 +68,7 @@ function playRound (userchoice, computerchoice) {
 function playGame () {
     for (let i = 0; i<5 ; i++) {
         let computerchoice = getComputerChoice();
-        let humanchoice = getHumanChoice().toLowerCase;
+        let humanchoice = getHumanChoice().toLowerCase();
         playRound (humanchoice, computerchoice);
     }
     if (computerscore > userscore ) {
